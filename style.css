@@ -1,0 +1,43 @@
+html{
+    background-color: black;
+    color:white;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    font-family: 'Noto Sans', sans-serif;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.line{
+    color: white;
+}
+
+.subbut{
+    margin-left:40%;
+}
+
+input[type=button]{
+    cursor:pointer;
+    border:none;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    padding: 16px 68px;
+    font-family: 'Roboto Slab', serif;
+}
+
+input[type=button]:hover{
+    border:none;
+    background-color:grey;
+    color:black;
+}
+
+#result{
+    margin-left:43%;
+}
